@@ -1,0 +1,9 @@
+CAB 1729
+
+
+Once when Ramanujan was at Bletchley park, he was asked to decode a very complex message they just received from the radio station. Little did they know that Ramanujan has you for help :P
+
+N3d5X3BAcF9zczBfYm8zZF8hb2N0b252ZA==
+
+
+(Enclose your answer in ctf{})
