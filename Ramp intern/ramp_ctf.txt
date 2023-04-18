@@ -1,0 +1,20 @@
+https://0ijq1i6sp1.execute-api.us-east-1.amazonaws.com/dev/start?q=select%20contents%20from%20readme
+Notice that the URL is a SQLLite query.
+
+https://0ijq1i6sp1.execute-api.us-east-1.amazonaws.com/dev/start?q=SELECT%20%2A%20FROM%20sqlite_master%20where%20type%3D%27table%27
+This is the query to select all tables: SELECT * FROM sqlite_master where type='table'; URL encode it and add it to the URL.
+
+https://0ijq1i6sp1.execute-api.us-east-1.amazonaws.com/dev/start?q=select%20url%20from%20flags_108
+select url from flags, structured similar to select content from readme.
+
+https://0ijq1i6sp1.execute-api.us-east-1.amazonaws.com/dev/hash?q=select%20url%20from%20flags_108
+Brute force the hash to find the answer as capitol.
+
+https://0ijq1i6sp1.execute-api.us-east-1.amazonaws.com/dev/stream?q=select%20url%20from%20flags_108
+Accumulate the stream to find only {'a', 'e', 'i', 'g', 'n', 'o', 'z'} letters. The only 7 letter word to use all these letters is agonize.
+
+https://0ijq1i6sp1.execute-api.us-east-1.amazonaws.com/dev/browser?q=select%20url%20from%20flags_108
+Change user agent to the given one. Answer is bolster.
+
+https://0ijq1i6sp1.execute-api.us-east-1.amazonaws.com/dev/exception?q=amoebae
+Give a 7 letter word that sums to 42, assuming a is 1, b is 2, etc, in the query string. Answer is choking.
